@@ -1,0 +1,275 @@
+*{
+    box-sizing: border-box;
+}
+/* Task1 */
+.container{
+width:95%;
+    margin: 0 auto;
+    padding: 0;
+}
+.logotip {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap:5px;
+}
+.logotip img {
+    width: 60px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* column-gap: 60px; */
+    border-bottom: 1px solid #4f43434f;
+}
+
+.navbar h1 {
+    color:#153dcd;
+}
+
+.navbar_menu {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    column-gap: 40px;
+}
+
+.navbar_item a {
+    text-decoration: none;
+    outline: none;
+    color: #4767d1d5;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    line-height: 20.11px;
+}
+
+.navbar_item a:hover {
+    font-size:19px ;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    border-bottom: 3px solid #5a7ded;
+}
+
+.navbar_login {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar_login button:hover {
+    width:110px; 
+    height: 40px;
+    border-radius:8px ;
+   
+    
+  }
+  .navbar_login button {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 35px;
+    border-radius: 6px;
+    color:#FFFFFF;
+    
+    background-color:#153dcd;
+    border:none;
+transition: 0.2s all;
+  }
+.login{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #ddf2f8;
+    padding: 20px;
+    gap: 20px;
+
+}
+.login_title{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.login_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+   
+}
+
+.login_topic{
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+
+}
+
+select{
+    padding: 20px 15px;
+    outline: none;
+    font-size: 22px;
+    border-radius: 10px;
+    border: 1px solid #999;
+    width: 100%;
+}
+input{
+    padding: 20px 15px;
+    outline: none;
+    font-size: 22px;
+    border-radius: 10px;
+    border: 1px solid #999;
+    width: 49%;
+}
+.login_btn{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+button{
+    padding: 6px;
+font-size: 20px;
+background-color: #0963e9ae;
+border: none;
+border-radius: 10px;
+color: aliceblue;
+width: 160px;
+height: 46px;
+
+}
+textarea{
+   width:100%;
+border-radius: 10px;
+height: 180px;
+}
+p{
+    font-size: 20px;
+}
+h1{
+    color: #208dd5;
+}
+.login_img img{
+    width:600px;
+height: 600px;
+object-fit: cover;
+}
+/* Task2 */
+.newsletter{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #d8ebf7;
+    gap: 30px;
+}
+.newsletter_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+}
+.newsletter_info input{
+    width: 100%;
+}
+.newsletter_info span{
+font-size: 50px;
+}
+.newsletter_info span:hover{
+    color: #208dd5;
+}
+.newsletter_img img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.newsletter_img{
+    width: 100%;
+}
+/* Task3 */
+.demo{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #d8ebf7;
+    gap: 30px;
+    height: 100%;
+    width: 100%;
+}
+.demo_info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.demo_info input{
+    width: 100%;
+}
+.demo_video video{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+.demo_video{
+    width: 50%;
+  
+}
+.demo button{
+    padding: 4px;
+}
+/* Extra Task1 */
+.signbox{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #d8ebf7;
+    gap: 30px;
+    height: 100%;
+    width: 100%;
+}
+.signbox_info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.signbox button{
+    height: 60px;
+    width: 100%;
+}
+.signbox_inputs{
+    display: flex;
+    justify-content: space-between;
+}
+.signbox button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #153dcd;
+}
+a:hover{
+   color: #fafafa;
+}
+.signbox_img{
+    width: 100%;
+}
+.signbox_img img{
+    width: 100%;
+    height: 100%;
+}
